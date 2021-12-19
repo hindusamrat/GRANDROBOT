@@ -145,7 +145,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="t.me/hindushakti_1")],
                                                                                    [InlineKeyboardButton(text="ADD ℌ𝔦𝔫𝔫𝔡𝔲𝔰𝔞𝔪𝔯𝔞𝔱 ℜ𝔬𝔟𝔬𝔱 TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   
+                                                                                    InlineKeyboardButton(text="Source Code",
+                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                                 ]]))
 
     else:
         update.effective_message.reply_text("Jai Shree Ram I am alive")
